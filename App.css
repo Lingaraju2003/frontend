@@ -1,0 +1,61 @@
+
+body {
+  background: linear-gradient(to right, #667eea, #764ba2);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 500px;
+  margin: 60px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+}
+
+.add-btn { background-color: #28a745; }
+.update-btn { background-color: #ffc107; }
+.edit-btn { background-color: #007bff; margin-right: 5px; }
+.delete-btn { background-color: #dc3545; }
+
+.card {
+  background: #f8f9fa;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
